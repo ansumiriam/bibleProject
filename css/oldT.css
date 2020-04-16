@@ -1,0 +1,28 @@
+@import "navbar.css";
+
+#books-div  {
+  background: url(../images/cross.jpg) center center/cover no-repeat;
+  height:auto;
+  width:auto;
+}
+
+/* body {background: url(../images/cross.jpg) center center/cover no-repeat;} */
+
+#books-div a {
+  text-decoration: none;
+  font-size: 20px;
+  padding:25px;
+  display: inline-block;
+  margin: 15px;
+  background: #5b5e73;;
+  border-radius: 5px;
+  opacity: 0.4;
+  color: #fff;
+  text-align: center;
+ 
+}
+
+#books-div a:hover {
+  opacity: 0.9;
+  text-align: center;
+}
