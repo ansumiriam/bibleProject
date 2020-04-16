@@ -18,7 +18,7 @@ function createBookJson(book) {
 
 
 
-httpGetAsync('/bibleText/en_bbe.json');
+httpGetAsync('bibleText/en_bbe.json');
 function httpGetAsync(theUrl, callback)
 {
     var xmlHttp = new XMLHttpRequest();
